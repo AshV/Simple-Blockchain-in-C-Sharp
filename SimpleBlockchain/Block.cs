@@ -6,7 +6,7 @@
 
         public string[] transactions { get; }
 
-        private int blockhash { get; }
+        public int blockhash { get; }
 
         public Block(int previousHash, string[] transactions)
         {
