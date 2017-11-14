@@ -10,6 +10,7 @@ namespace SimpleBlockchain
     {
         static void Main(string[] args)
         {
+            
         }
     }
 }
