@@ -4,11 +4,11 @@
     {
         private int previousHash { get; }
 
-        public string[] transactions { get; }
+        public Transaction[] transactions { get; }
 
         public int blockhash { get; }
 
-        public Block(int previousHash, string[] transactions)
+        public Block(int previousHash, Transaction[] transactions)
         {
             this.previousHash = previousHash;
             this.transactions = transactions;
